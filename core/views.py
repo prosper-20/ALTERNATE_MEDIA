@@ -8,4 +8,4 @@ from django.views.generic import ListView
 
 
 def HomeView(request):
-    return render(request, 'core/home.html')
+    return render(request, 'core/index.html')
